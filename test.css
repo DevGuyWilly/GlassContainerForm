@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to bottom left, cyan 50%, palegoldenrod 50%);
+}
+
+.container{
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 50%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: space-around;
+    /* ----------- */
+    /* OPCAITY AD BACKGROUND */
+    background-color: rgb(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+button{
+    padding: 15px;
+    margin: 20px;
+    /* width: 100px; */
+    border: none;
+    font-size: 20px;
+    background-color: palegoldenrod;
+    text-transform: uppercase;
+    border: 1px solid gray;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 50%;
+}
+.btn{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+button:hover{
+    background-color: black;
+    color: palegoldenrod;
+    border-color: palegoldenrod;
+}
+form h1{
+    width: 100%;
+    font-size: 30px;
+    margin-top: 15px;
+    text-align: center;
+}
+form label{
+    width: 100%;
+    font-size: 20px;
+    margin-top: 15px;
+}
+form input{
+    width: 100%;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+}
+.text{
+    width: 100%;
+    text-align: center;
+}
